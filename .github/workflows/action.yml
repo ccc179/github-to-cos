@@ -1,4 +1,4 @@
-name: 同步任务
+name: 同步任务1
 
 on: 
   push:
