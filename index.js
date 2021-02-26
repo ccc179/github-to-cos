@@ -28,7 +28,7 @@ var gallyJson = [{
 async function initConfig() {
 
     if (!process.env.SECRET_ID || !process.env.SECRET_KEY) {
-        console.log('Secret请填写COS密钥 SECRET_ID 和 SECRET_KEY ')
+        console.log('Secret请填写这COS密钥 SECRET_ID 和 SECRET_KEY ')
         return false
     }
 
